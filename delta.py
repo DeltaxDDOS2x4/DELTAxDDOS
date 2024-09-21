@@ -358,7 +358,7 @@ def show_help(message):
 💥 /admincmd : Shows All Admin Commands.
 
 Buy From :- @The_Fiend102
-Official Channel :- https://t.me/@The_Fiend102
+Official Channel :- @The_Fiend102
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
