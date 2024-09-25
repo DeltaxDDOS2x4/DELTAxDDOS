@@ -283,9 +283,9 @@ def start_attack_reply(message, target, port, time):
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
-bgmi_cooldown = {10}
+bgmi_cooldown = {0}
 
-COOLDOWN_TIME =10
+COOLDOWN_TIME =0
 
 # Handler for /bgmi command
 @bot.message_handler(commands=['bgmi'])
