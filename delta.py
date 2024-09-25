@@ -283,9 +283,9 @@ def start_attack_reply(message, target, port, time):
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
-bgmi_cooldown = {}
+bgmi_cooldown = {10}
 
-COOLDOWN_TIME =0
+COOLDOWN_TIME =10
 
 # Handler for /bgmi command
 @bot.message_handler(commands=['bgmi'])
@@ -385,7 +385,7 @@ def welcome_rules(message):
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/venomcha7 OTHERWISE NOT WORK
+3. MAKE SURE YOU JOINED https://t.me/FALCONBGMISHOP OTHERWISE NOT WORK
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
@@ -397,7 +397,7 @@ def welcome_plan(message):
 Vip 🌟 :
 -> Attack Time : 300 (S)
 > After Attack Limit : 10 sec
--> Concurrents Attack : 5
+-> Concurrents Attack : 10
 
 Pr-ice List💸 :
 Day-->80 Rs
